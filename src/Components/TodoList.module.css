@@ -1,0 +1,103 @@
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: inset 0 0 10px #E5E4E2;
+  }
+.heading{
+  font-family: 'Imbue', serif;
+  font-size: 45px;
+  font-weight: 800;
+  color: lightslategray;
+}
+.inputfield{
+  width: 80%;
+  height: 38px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid lightgrey;
+}
+.taskbtn{
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: lightcoral;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.taskfield{
+ display: flex;
+ max-width: 95%;
+ margin-left: auto;
+ margin-right: auto;
+ justify-content: space-between;
+}
+.errorpara{
+  color: crimson;
+  font-size: 18px;
+}
+.filterbtns{
+  margin-top: 20px;
+  display: flex;
+  max-width: 35%;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+.filterbtns button{
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #EAEDED;
+}
+.filterbtns button.active{
+  background-color: lightcoral;
+    color: #fff;
+}
+  /* Styles for the todo list */
+.todolist {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+}
+.todolist li {
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+.listitems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.listtext{
+  display: flex;
+  align-items: center;
+  color: lightslategray;
+  gap: 15px;
+}
+.para{
+  width: 400px;
+}
+.btns{
+  display: flex;  
+  justify-content: space-between;
+}
+.btns button{
+  border: none;
+  background-color: #fff;
+  font-size: 19px;
+  color: lightslategray;
+  cursor: pointer;
+}
+.completed{
+  color: #9FE2BF;
+  text-decoration: line-through;
+}
